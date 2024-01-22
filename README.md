@@ -41,6 +41,20 @@ The dataset comprises various features related to power production/consumption, 
 - **Practical Implications**: [Discuss how the findings can be applied in a real-world scenario].
 
 ## Conclusions and Recommendations
-- **Conclusions**: [Summarize the main findings of the project].
-- **Recommendations**: [Any recommendations based on your analysis].
-- **Future Work**: [Suggestions for future research or project extensions].
+In summary, our exploration of various machine learning models on a given dataset revealed the following key findings:
+
+Linear Regression Models:
+
+Implementation: Utilized closed-form solution, gradient descent, and stochastic gradient descent. Performance Metrics: Consistently demonstrated the ability to handle the data with full rank characteristics. Results: All three models performed similarly with a Sum of Squared Errors (SSE) around 1.47 and an R2 score of 0.63. Cross-validation: The k-fold cross-validation results reinforced the reliability of the closed-form solution, providing consistent and satisfactory performance metrics, including SSE, Mean Squared Error (MSE), Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), and R2 score.
+
+Neural Network Model:
+
+Predictive Capabilities: Exhibited strong predictive capabilities. Optimal Cutoff: Achieved an optimal cutoff at 0.6. Classification Performance: Yielded an accuracy of 92.05%, sensitivity of 92.08%, and AUC-ROC score of 0.98. Balance: Demonstrated a well-balanced classification performance, capturing a substantial portion of positive instances while maintaining high overall accuracy.
+
+Logistic Regression:
+
+Performance: Provided competitive results. Metrics: Achieved an accuracy of 91.2%, precision of 81.22%, and recall of 96.18%. Best Cutoff: Identified the best cutoff value as 0.4. Additional Consideration: Logistic regression is computationally less expensive than neural networks, especially for small to moderately sized datasets. However, considering the dataset size and model complexity, the computational cost of neural networks may become more justifiable, particularly when leveraging hardware acceleration.
+
+**Conclusion and Recommendation:**
+
+While linear regression models performed adequately, logistic regression and neural networks exhibited superior predictive capabilities. Considering the trade-off between computational cost and performance, logistic regression is recommended as the final model, especially for scenarios with constraints on time complexity and computation cost.
