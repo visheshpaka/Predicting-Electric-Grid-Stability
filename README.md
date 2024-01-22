@@ -41,8 +41,7 @@ The dataset comprises various features related to power production/consumption, 
 - **Practical Implications**: [Discuss how the findings can be applied in a real-world scenario].
 
 ## Conclusions and Recommendations
-- **Conclusions**:
-- In summary, our exploration of various machine learning models on a given dataset revealed the following key findings:
+In summary, our exploration of various machine learning models on a given dataset revealed the following key findings:
 
 Linear Regression Models:
 
@@ -56,7 +55,6 @@ Logistic Regression:
 
 Performance: Provided competitive results. Metrics: Achieved an accuracy of 91.2%, precision of 81.22%, and recall of 96.18%. Best Cutoff: Identified the best cutoff value as 0.4. Additional Consideration: Logistic regression is computationally less expensive than neural networks, especially for small to moderately sized datasets. However, considering the dataset size and model complexity, the computational cost of neural networks may become more justifiable, particularly when leveraging hardware acceleration.
 
-Conclusion and Recommendation:
+**Conclusion and Recommendation:**
 
 While linear regression models performed adequately, logistic regression and neural networks exhibited superior predictive capabilities. Considering the trade-off between computational cost and performance, logistic regression is recommended as the final model, especially for scenarios with constraints on time complexity and computation cost.
- 
